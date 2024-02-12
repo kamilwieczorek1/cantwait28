@@ -7,8 +7,8 @@ class UserProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileScreen(
-      providerConfigs: [
-        EmailProviderConfiguration(),
+      providers: [
+        EmailAuthProvider(),
       ],
       actions: [
         SignedOutAction(
